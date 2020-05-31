@@ -1,0 +1,39 @@
+#video
+    position: absolute
+    top: 0
+    left: 0
+    bottom : 0
+    right: 0
+    background: rgba(0,0 ,0 ,0.9 )
+    z-index: 99999999
+    opacity: 0
+    animation: opa 1s forwards
+    @keyframes opa
+        0%
+            opacity: 0
+        50%
+            opacity: 0
+        100%
+            opacity: 1
+    .content
+        max-width: 400px
+        display: flex
+        margin: 0 auto
+        align-items: center
+        video
+            max-width: 100%
+            border: 2px solid white
+            border-radius: 4px
+        .close
+            cursor: pointer
+            filter: invert(1)
+            width: 80px
+            margin-left: 50px
+            margin-top: -650px
+            img
+                max-width: 100%
+.hiddenTrailer
+    display: none
+
+
+
